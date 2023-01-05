@@ -5,13 +5,21 @@
         <title>СТО "Ишак"</title>
         <link rel="stylesheet" href="{{ STATIC_URL }}/static/index.css">
         <link rel="shortcut icon" type="image/png" href="{% static 'favicon.ico' %}"/>
+         <audio autoplay loop>
+            <source src="{{ STATIC_URL }}/static/mp3.mp3" type="audio/mpeg">
+        </audio>
     </head>
     <body>
     <a href="/">
         <img src="{{ STATIC_URL }}/static/logo.jpg" width="100" height="100"/>
     </a>
-        <h1>Официальный сайт станции технического обслуживания "Ишак"</h1>
+        <h1>Станция технического обслуживания "Ишак" </h1>
+        <h1 style="color: #ffff00; font-family: cursive">Официальный сайт</h1>
     </body>
+    <div class="blink_me">
+    <h2 style="color: #ff0000;">АКЦИЯ зАМЕНА АУДИ ТТ НА УРАЛ ТТ</h2>
+    </div>
+    <h1 style="color: pink; font-size: 80px"> СТО "Ишак" <br> the best or nahuy.</h1>
     <h2>График работы</h2>
     <table>
         <tr>
@@ -39,4 +47,40 @@
     <a href="/gallery">
         <h2>Наши работы</h2>
     </a>
+    <h2>Прайс-лист</h2>
+    <table>
+        <tr>
+            <th>Наименование работы</th> <th>Цена</th>
+        </tr>
+        <tr>
+            <td>Ремонт аирматик визит воршоп</td> <td></td>
+        </tr>
+        <tr>
+            <td>Проффесиональная окраска заборной краской с помощью валика </td> <td></td>
+        </tr>
+        <tr>
+            <td>Регулировка керберетор кувалдой</td> <td></td>
+        </tr>
+        <tr>
+            <td>Восстановления целостности кузова монтажной пеной</td> <td></td>
+        </tr>
+        <tr>
+            <td>Восстановление запчастей до уровня "еще походит"</td> <td></td>
+        </tr>
+        <tr>
+            <td>Доукомплектация дополнительных 8 клапанов в двигун A15SMS</td> <td></td>
+        </tr>
+        <tr>
+            <td>Полная шумовиброизоляция по МОЛДАВСКИМ технологиям</td> <td></td>
+        </tr>
+        <tr>
+            <td>Перетяжка тертых седел шпаклей</td> <td></td>
+        </tr>
+        <tr>
+            <td>Прошивка stage 1 2 3 сварочным инвертором</td> <td></td>
+        </tr>
+        <tr>
+            <td>Воскрешение рисунка протектора шины кама365 рубанком</td> <td></td>
+        </tr>
+    </table>
 </html>

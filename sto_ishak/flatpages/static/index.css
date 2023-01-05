@@ -1,12 +1,32 @@
 table, th, td {
-  background: #0049fd;
+  background: #00ffff;
   border: 1px solid black;
   border-radius: 10px;
   font-family: Tahoma, Arial, sans-serif;
-  color: #ff0806;
+  color: #000000;
 }
 body {
-    background: #ff0806;
+    background: #00ffff;
     font-family: Tahoma, Arial, sans-serif;
-    color: #0049fd;
+    color: #ff99ff;
 }
+img {
+  max-width: 33%;
+  height: auto;
+}
+td
+{
+    text-align: left;
+}
+
+
+.blink_me {
+  animation: blinker 0.2s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+css
