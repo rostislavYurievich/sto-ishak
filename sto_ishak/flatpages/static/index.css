@@ -1,0 +1,12 @@
+table, th, td {
+  background: #0049fd;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-family: Tahoma, Arial, sans-serif;
+  color: #ff0806;
+}
+body {
+    background: #ff0806;
+    font-family: Tahoma, Arial, sans-serif;
+    color: #0049fd;
+}

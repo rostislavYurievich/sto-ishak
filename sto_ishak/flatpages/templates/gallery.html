@@ -1,0 +1,27 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Галерея "Ишак"</title>
+        <link rel="stylesheet" href="{{ STATIC_URL }}/static/gallery/style.css">
+        <link rel="shortcut icon" type="image/jpg" href="{% static 'favicon.ico' %}"/>
+    </head>
+    <body>
+    <a href="/">
+        <h4>Назад</h4>
+    </a>
+    <h1>Официальная галерея станции технического обслуживания "Ишак"</h1>
+        <div>
+            <img src="{{ STATIC_URL }}/static/gallery/img1.jpg">
+            <img src="{{ STATIC_URL }}/static/gallery/img2.jpg">
+            <img src="{{ STATIC_URL }}/static/gallery/img3.jpg">
+        </div>
+        <div>
+            <img src="{{ STATIC_URL }}/static/gallery/img4.jpg">
+            <img src="{{ STATIC_URL }}/static/gallery/img5.jpg">
+            <img src="{{ STATIC_URL }}/static/gallery/img6.jpg">
+        </div>
+    </body>
+
+    </a>
+</html>
